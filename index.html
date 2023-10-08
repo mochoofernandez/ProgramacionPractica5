@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>HOLA MUNDO FLUID</h1>
+    </div>
+    <div class="container-XXL">
+      <h1>HOLA MUNDO XXL</h1>
+    </div>
+    <div class="container">
+        <h1>HOLA MUNDO CONTAINER</h1>
+    </div>
+    <div class="container-sm">
+      <h1>HOLA MUNDO SM</h1>
+    </div>
+    
+    <div class="container mt-5">
+        <h1>Tabla</h1>
+        <table class="Table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Apellido</th>
+                    <th scope="col">Edad</th>
+                    <th scope="col">Gmail</th>
+                    <th scope="col">Genero</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="fila1">
+                    <th scope="row">1</th>
+                    <td>Elias</td>
+                    <td>Soraire</td>
+                    <td>19</td>
+                    <td>elias@gmail.com</td>
+                    <td>Hombre</td>
+                </tr>
+                <tr class="fila2">
+                    <th scope="row">2</th>
+                    <td>Mauricio</td>
+                    <td>Licciardi</td>
+                    <td>19</td>
+                    <td>mauricio@gmail.com</td>
+                    <td>Hombre</td>
+                </tr>
+                <tr class="fila3">
+                    <th scope="row">3</th>
+                    <td>Mariana</td>
+                    <td>Fernandez</td>
+                    <td>31</td>
+                    <td>marianaF@gmail.com</td>
+                    <td>Mujer</td>
+                </tr>
+                <tr class="fila4">
+                    <th scope="row">4</th>
+                    <td>Sebastian</td>
+                    <td>Sanchez</td>
+                    <td>30</td>
+                    <td>sebasanche@gmail.com</td>
+                    <td>Hombre</td>
+                </tr>
+                <tr class="fila5">
+                    <th scope="row">5</th>
+                    <td>Lourdes</td>
+                    <td>Rocha</td>
+                    <td>24</td>
+                    <td>lourdroch@gmail.com</td>
+                    <td>Mujer</td>
+                </tr>
+            </tbody>
+        </table>
+    
+    <div class="container">
+        <h1>Lista de Opciones Bootstrap</h1>
+        <form>
+            <div class="mb-3">
+                <label for="opcionesSelect" class="form-label">¿De qué comisión sos?</label>
+                <select class="form-select" id="opcionesSelect" name="opcion">
+                    <option value="opcion1">Elegir una opción</option>
+                    <option value="opcion1">Comisión 1</option>
+                    <option value="opcion2">Comisión 2</option>
+                    <option value="opcion3">Comisión 3</option>
+                    <option value="opcion4">Comisión 4</option>
+                    <option value="opcion4">Comisión 5</option>
+                    <option value="opcion4">Comisión 6</option>
+                    <option value="opcion4">Comisión 7</option>
+                    <option value="opcion4">Comisión 8</option>
+                    <option value="opcion4">Comisión 9</option>
+                    <option value="opcion4">Comisión 10</option>
+                </select>
+            </div>
+        </form>
+    </div>
+
+    <label for="customRange1" class="form-label">General</label>
+<input type="range" class="form-range" id="customRange1">
+
+    <label for="customRange2" class="form-label">Mínimo y máximo</label>
+<input type="range" class="form-range" min="0" max="5" id="customRange2">
+
+
+<div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Lionel Messi
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Es un futbolista argentino que juega como delantero o centrocampista y su equipo actual es el Inter Miami de la MLS de Estados Unidos. Es internacional con la selección de Argentina, equipo del que también es capitán.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Sergio Leonel Agüero del Castillo, Kun Agüero
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Es un exfutbolista, empresario, comentarista deportivo y streamer argentino que jugaba como delantero. Actualmente es presidente, dueño y jugador de Kunisports FC de la Kings League. Fue internacional con la selección argentina desde 2006.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Diego Maradona
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Fue un futbolista y entrenador argentino. Como jugador, se desempeñó como mediocampista ofensivo o delantero, y es reconocido por numerosos especialistas, ​​ exfutbolistas y personalidades internacionales​ como «uno de los mejores futbolistas en la historia».​
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1200px-Flag_of_Argentina.svg.png" class="card-img-top" alt="Imagen 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Argentina</h5>
+                        <p class="card-text">Tarjeta 1</p>
+                        <a href="https://youtu.be/McqTd16031M?si=RtzYUJC_QEfYESVP" class="btn btn-primary">Enlace 1</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i0.wp.com/vacacionesporargentina.com/wp-content/uploads/2020/11/waterfall-5040210_1920.jpg?fit=1920%2C1272&ssl=1" class="card-img-top" alt="Imagen 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Cataratas del Iguazú</h5>
+                        <p class="card-text">Tarjeta 2</p>
+                        <a href="https://www.despegar.com.ar/paquetes/igr/paquetes-a-puerto+iguazu?adjust_adgroup=36468579340&adjust_campaign=692196634&adjust_t=ovd1mo_r45y7l_v9v5li&adjust_creative=612565081161&adjust_tracker_limit=1000000000&gad=1&gclid=CjwKCAjwjaWoBhAmEiwAXz8DBehhQ12ZHcHC7s6Pt8NqACcsDimn8p-hiRsjo2CM-odSQkHfDHQl-hoC0tsQAvD_BwE&mktdata=accountid%3D9446787372%26pr%3DX%26cc%3DAR%26adjust_t%3Dovd1mo_r45y7l_v9v5li%26kw%3Diguazu%2520paquete%2520turistico%26c%3D612565081161%26mt%3Db%26n%3Dg%26p%3D%26ap%3D%26d%3Dc%26dm%3D%26targetid%3Dkwd-827912729454%26campaignid%3D692196634%26adgroupid%3D36468579340%26ExperimentId%3D%26locationid%3D1000116%26adjust_adgroup%3D36468579340%26adjust_campaign%3D692196634%26adjust_creative%3D612565081161%26key%3DUT81AK9JAFEGJ4D69OVO6J673E%26adjust_tracker_limit%3D1000000000%26gclid%3DCjwKCAjwjaWoBhAmEiwAXz8DBehhQ12ZHcHC7s6Pt8NqACcsDimn8p-hiRsjo2CM-odSQkHfDHQl-hoC0tsQAvD_BwE%26id%3D20230919214542149164859932432766%26trackeame_user_id%3D125F2250809B1694613879820f8f81ac8-e096-465e-b888-70edba4c16d019296351" class="btn btn-primary">Enlace 2</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://cdn.conmebol.com/wp-content/uploads/2023/03/40ad4eba3c22c28da02e5262d4f109fb44d41e1dw.jpg" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Argentina Campeón del Mundo</h5>
+                        <p class="card-text">Tarjeta 3</p>
+                        <a href="https://youtu.be/ricHDE1FV8c?si=H7cDxiLPlAHZgBDw" class="btn btn-primary">Enlace 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://media.tycsports.com/files/2023/06/24/584696/messi_1440x810_wmk.webp?v=1" class="d-block w-100" alt="1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.fcbarcelona.com/photo-resources/2020/02/19/d8f54b57-05d8-46bc-854e-014d7a9a9e46/2635_01_24.jpg?width=1200&height=750" class="d-block w-100" alt="2">
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.conmebol.com/wp-content/uploads/2023/03/40ad4eba3c22c28da02e5262d4f109fb44d41e1dw.jpg" class="d-block w-100" alt="3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
